@@ -1,0 +1,44 @@
+.has-border {
+  border: 1px solid black;
+}
+
+#hero {
+  height: 100vh;
+}
+
+#hero::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("./img/hero-bg3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.custom-blue {
+  color: #1257a4;
+}
+
+.custom-dark-blue {
+  color: rgba(0, 69, 164, 255);
+}
+
+#hero img {
+  float: right;
+}
+
+.custom-btn {
+    color: white;
+    background-color: #1257a4;
+}
+
+.custom-btn:hover {
+    background-color: #ef7f1b;
+}
+
