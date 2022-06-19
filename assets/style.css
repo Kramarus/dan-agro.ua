@@ -3,7 +3,7 @@
 }
 
 #hero {
-  height: 100vh;
+  height: 90vh;
 }
 
 #hero::before {
@@ -18,7 +18,19 @@
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  opacity: 0.5;
+}
+
+#hero:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .custom-blue {
@@ -40,5 +52,35 @@
 
 .custom-btn:hover {
     background-color: #ef7f1b;
+}
+
+#advantages .advantage-img {
+    text-align: center;
+}
+#advantages .advantage-img svg {
+    height: 5vh;
+    fill: #1257a4;
+}
+
+#advantages {
+    color: #1257a4;
+}
+
+footer {
+    background-color: #1257a4;
+}
+
+.logo-footer {
+    background-color: white;
+    text-align: center;
+}
+
+.logo-footer img {
+    height: 10vh;
+}
+
+#hero-features li {
+  list-style-type: none;
+  float: left;
 }
 
