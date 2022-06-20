@@ -2,7 +2,7 @@
   border: 1px solid black;
 }
 
-#hero {
+main {
   height: 90vh;
 }
 
@@ -46,37 +46,37 @@
 }
 
 .custom-btn {
-    color: white;
-    background-color: #1257a4;
+  color: white;
+  background-color: #1257a4;
 }
 
 .custom-btn:hover {
-    background-color: #ef7f1b;
+  background-color: #ef7f1b;
 }
 
 #advantages .advantage-img {
-    text-align: center;
+  text-align: center;
 }
 #advantages .advantage-img svg {
-    height: 5vh;
-    fill: #1257a4;
+  height: 5vh;
+  fill: #1257a4;
 }
 
 #advantages {
-    color: #1257a4;
+  color: #1257a4;
 }
 
 footer {
-    background-color: #1257a4;
+  background-color: #1257a4;
 }
 
 .logo-footer {
-    background-color: white;
-    text-align: center;
+  background-color: white;
+  text-align: center;
 }
 
 .logo-footer img {
-    height: 10vh;
+  height: 10vh;
 }
 
 #hero-features li {
@@ -84,3 +84,49 @@ footer {
   float: left;
 }
 
+#features, #management-system, #components ul li {
+  
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.square-li {
+  list-style-type: square;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.tg .tg-fymr {
+  border-color: inherit;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
