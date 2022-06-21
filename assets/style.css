@@ -76,7 +76,7 @@ footer {
 }
 
 .logo-footer img {
-  height: 10vh;
+  height: 20vh;
 }
 
 #hero-features li {
@@ -84,7 +84,7 @@ footer {
   float: left;
 }
 
-#features, #management-system, #components ul li {
+#features, #management-system, #components ul, ol li {
   
   padding: 10px;
   font-size: 1.3rem;
