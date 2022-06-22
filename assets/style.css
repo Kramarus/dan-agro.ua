@@ -33,8 +33,8 @@ main {
   z-index: -1;
 }
 
-.custom-blue {
-  color: #1257a4;
+.custom-bg {
+  background-color: #ef7f1a;
 }
 
 .custom-dark-blue {
@@ -47,7 +47,7 @@ main {
 
 .custom-btn {
   color: white;
-  background-color: #1257a4;
+  background-color: #ef7f1a;
 }
 
 .bg-custom-blue {
@@ -70,9 +70,7 @@ main {
   color: #1257a4;
 }
 
-footer {
-  background-color: #1257a4;
-}
+
 
 .logo-footer {
   background-color: white;
