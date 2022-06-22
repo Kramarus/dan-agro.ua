@@ -398,33 +398,3 @@
   color: var(--primary);
 }
 
-/* CUSTOM STYLES*/
-
-.logo-header {
-  height: 6rem;
-}
-
-.hero-image {
-  width: 100vw;
-  height: 100vh;
-  margin-bottom: 20px;
-  background-image: url("../img/carousel-1.jpg");
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-html {
-    overflow-x: hidden;
-}
-
-.custom-btn {
-  background-color: #ef7f1a;
-  color: #f2f2f2;
-}
