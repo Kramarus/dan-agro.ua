@@ -50,6 +50,10 @@ main {
   background-color: #1257a4;
 }
 
+.bg-custom-blue {
+  background-color: #1257a4;
+}
+
 .custom-btn:hover {
   background-color: #ef7f1b;
 }
@@ -139,4 +143,8 @@ footer {
   height: 9rem;
   padding: 2rem;
   
+}
+
+#guarantees ul li {
+  list-style-type: none;
 }
