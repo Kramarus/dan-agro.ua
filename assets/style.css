@@ -130,3 +130,13 @@ footer {
   text-align: left;
   vertical-align: top;
 }
+
+#extra-service .img-container {
+  text-align: center;
+}
+
+#extra-service img {
+  height: 9rem;
+  padding: 2rem;
+  
+}
