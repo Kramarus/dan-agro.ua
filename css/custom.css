@@ -1,5 +1,9 @@
 /* CUSTOM STYLES*/
 
+body {
+  background-color: #02231a; /*02231a*/
+}
+
 .logo-header {
   height: 6rem;
 }
@@ -8,11 +12,15 @@
   width: 100vw;
   height: 100vh;
   margin-bottom: 20px;
-  background-image: url("../img/carousel-1.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%); */
+}
+
+.hero-design {
+  background-color: rgba(239,127,26,0.3);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
 }
 
 .overlay {
@@ -75,6 +83,8 @@ html {
     height: 4rem;
     
 }
+
+.logo-footer
 
 
 
