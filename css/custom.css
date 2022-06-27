@@ -105,6 +105,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
+  clip-path: polygon(0 0%, 97% 10%, 97% 100%, 0 100%);
 }
 
 .overlay-light {
