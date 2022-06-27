@@ -20,17 +20,19 @@
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow");
         $(".nav-text").addClass("text-dark");
-        $(".logo-header").addClass("logo-black");
+        document.getElementById('logo-header').src = './img/logo.png';
       } else {
         $(".fixed-top").removeClass("bg-white shadow");
         $(".nav-text").removeClass("text-dark");
-        $(".logo-header").removeClass("logo-black");
+        document.getElementById('logo-header').src = './img/logo-new.png';
       }
     } else {
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow").css("top", -45);
+        document.getElementById('logo-header').src = './img/logo.png';
       } else {
         $(".fixed-top").removeClass("bg-white shadow").css("top", 0);
+        document.getElementById('logo-header').src = './img/logo-new.png';
       }
     }
   });
