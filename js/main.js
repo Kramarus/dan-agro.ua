@@ -18,11 +18,13 @@
 
     // Fixed Navbar
     $(window).scroll(function () {
-        if ($(window).width() < 992) {
+        if ($(window).width() < 1992) {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow');
+                $('.nav-text').addClass('text-dark');
             } else {
                 $('.fixed-top').removeClass('bg-white shadow');
+                $('.nav-text').removeClass('text-dark');
             }
         } else {
             if ($(this).scrollTop() > 45) {

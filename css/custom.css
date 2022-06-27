@@ -39,8 +39,20 @@ html {
   background-color: #ef7f1a;
 }
 
+.custom-bg2 {
+  background-color: #1157a3;
+}
+
 .text-custom {
   color: #ef7f1a;
+}
+
+.text-custom2 {
+  color: #1157a3;
+}
+
+#extra-service img {
+  filter: invert(100%);
 }
 
 .extra-bg {
@@ -63,8 +75,6 @@ html {
     height: 4rem;
     
 }
-
-
 
 
 
