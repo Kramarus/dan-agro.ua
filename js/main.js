@@ -20,19 +20,19 @@
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow");
         $(".nav-text").addClass("text-dark");
-        document.getElementById('logo-header').src = './img/logo.png';
+        document.querySelector('.logo-header').src = './img/logo.png';
       } else {
         $(".fixed-top").removeClass("bg-white shadow");
         $(".nav-text").removeClass("text-dark");
-        document.getElementById('logo-header').src = './img/logo-new.png';
+        document.querySelector('.logo-header').src = './img/logo-new.png';
       }
     } else {
       if ($(this).scrollTop() > 45) {
         $(".fixed-top").addClass("bg-white shadow").css("top", -45);
-        document.getElementById('logo-header').src = './img/logo.png';
+        document.querySelector('.logo-header').src = './img/logo.png';
       } else {
         $(".fixed-top").removeClass("bg-white shadow").css("top", 0);
-        document.getElementById('logo-header').src = './img/logo-new.png';
+        document.querySelector('.logo-header').src = './img/logo-new.png';
       }
     }
   });
