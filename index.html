@@ -150,11 +150,11 @@
                     </a>
                     <a
                       type="button"
-                      href="tel:+380500501303"
                       class="btn btn-outline-light py-sm-3 px-sm-5"
+                      data-bs-toggle="modal"
+                      data-bs-target="#contactManager"
+                      >Зв'язатися з менеджером</a
                     >
-                      Зв'язатися з менеджером
-                    </a>
                   </div>
                 </div>
                 <div
@@ -219,11 +219,11 @@
                     </a>
                     <a
                       type="button"
-                      href="tel:+380500501303"
                       class="btn btn-outline-light py-sm-3 px-sm-5"
+                      data-bs-toggle="modal"
+                      data-bs-target="#contactManager"
+                      >Зв'язатися з менеджером</a
                     >
-                      Зв'язатися з менеджером
-                    </a>
                   </div>
                 </div>
               </div>
@@ -794,11 +794,13 @@
                       </div>
                     </div>
                   </div>
-                  <a
-                    href="tel:+380500501303"
-                    class="btn btn-outline-light py-sm-3 px-sm-5"
-                    >Зв'язатися з менеджером</a
-                  >
+                  <!-- <a
+                  type="button"
+                  class="btn btn-outline-light py-sm-3 px-sm-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactManager"
+                  >Зв'язатися з менеджером</a
+                > -->
                   <a
                     type="button"
                     class="btn btn-danger py-sm-3 px-sm-5"
@@ -1240,8 +1242,10 @@
                 Підібрати модель
               </a>
               <a
-                href="tel:+380500501303"
+                type="button"
                 class="btn btn-outline-light py-sm-3 px-sm-5"
+                data-bs-toggle="modal"
+                data-bs-target="#contactManager"
                 >Зв'язатися з менеджером</a
               >
             </div>
@@ -1274,7 +1278,10 @@
                   <img class="img-fluid w-100" src="./img/generator.png" />
                 </div>
               </div>
-              <div class="col-12 col-md-7 px-5 border fs-5 wow fadeIn" data-wow-delay="0.5s">
+              <div
+                class="col-12 col-md-7 px-5 border fs-5 wow fadeIn"
+                data-wow-delay="0.5s"
+              >
                 <p>
                   <i class="fa fa-check text-custom me-3"></i>Економія витрат на
                   пальне 10-15 разів
@@ -1361,8 +1368,10 @@
                 Підібрати модель
               </a>
               <a
-                href="tel:+380500501303"
+                type="button"
                 class="btn btn-outline-light py-sm-3 px-sm-5"
+                data-bs-toggle="modal"
+                data-bs-target="#contactManager"
                 >Зв'язатися з менеджером</a
               >
             </div>
@@ -1470,8 +1479,10 @@
               </button>
 
               <button
-                href="tel:+380500501303"
+                type="button"
                 class="btn btn-outline-light py-sm-3 px-sm-5"
+                data-bs-toggle="modal"
+                data-bs-target="#contactManager"
               >
                 Зв'язатися з менеджером
               </button>
@@ -1690,7 +1701,7 @@
       <div class="overlay-footer pt-5">
         <div class="container mt-5">
           <div class="row g-5">
-            <div class="col-12 col-md-4 text-center">
+            <div class="col-12 col-lg-3 text-center">
               <a href="index.html" class="navbar-brand">
                 <img
                   class="logo-footer img-fluid w-50"
@@ -1724,7 +1735,7 @@
               ></a>
             </div> -->
             </div>
-            <div class="col-12 col-md-4 text-center text-md-start text-light">
+            <div class="col-12 col-lg-3 text-center text-md-start text-light">
               <h5 class="mb-4 text-light">ГК «ТЕПЛОЕНЕРГО»</h5>
               <p>
                 <i class="fa fa-map-marker-alt me-3"></i>Україна, 03035,
@@ -1736,12 +1747,46 @@
                 <i class="fa fa-envelope me-3"></i>marketing.danagro@gmail.com
               </p>
             </div>
-            <div class="col-12 col-md-4 text-center text-md-start text-light">
+            <div class="col-12 col-lg-3 text-center text-md-start text-light">
               <h5 class="text-light mb-4">Адреса виробничих потужностей</h5>
               <p>
                 <i class="fa fa-map-marker-alt me-3"></i>Україна, 08113,
                 <br />Київська область, <br />с.Петрушки, вул. Миру 25В
               </p>
+              
+            </div>
+            <div class="col-12 col-lg-3 text-center text-md-start text-light">
+              <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+              <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+              <form
+                action="https://formsubmit.co/bb578093b6a53e03850716bdb2a99164"
+                action
+                class="row justify-content-start g-2"
+                method="POST"
+              >
+                <label for="emailInfo" class="form-label"
+                  ><h5 class="text-light">Ваш Email</h5></label
+                >
+                <input
+                  type="email"
+                  class="form-control mb-3"
+                  name="email"
+                  id="emailInfo"
+                  required
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://dan-agro.com.ua/"
+                />
+                <input type="hidden" name="_subject" value="Підписка" />
+                <input type="hidden" name="_template" value="table" />
+
+                <button type="submit" class="btn btn-custom">
+                  Підписатися на сповіщення
+                </button>
+              </form>
             </div>
             <!-- <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Quick Links</h4>
@@ -1782,6 +1827,125 @@
       </div>
     </div>
     <!-- Footer End -->
+
+    <div
+      class="modal fade"
+      id="contactManager"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="contactManagerLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content border h-100">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactManagerLabel">
+              Зв'язатися з менеджером
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!--Form Original-->
+            <div class="container text-start">
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                  <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                  <form
+                    action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                    action
+                    class="row justify-content-start g-2"
+                    method="POST"
+                  >
+                    <label for="name" class="form-label"
+                      >Ім'я або назва компанії (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="name"
+                      id="name"
+                      required
+                    />
+
+                    <label for="emailInfo" class="form-label"
+                      >Email (обов'язкове поле)</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control mb-3"
+                      name="email"
+                      id="emailInfo"
+                      required
+                    />
+
+                    <label for="phoneNumber" class="form-label"
+                      >Телефон (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      required
+                    />
+
+                    <label for="region" class="form-label"
+                      >Регіон (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="region"
+                      id="region"
+                      required
+                    />
+
+                    <label for="comments" class="form-label">Коментар</label>
+                    <textarea
+                      class="form-control"
+                      id="comments"
+                      name="message"
+                      rows="3"
+                    ></textarea>
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                      type="hidden"
+                      name="_next"
+                      value="https://dan-agro.com.ua/thankyou.html"
+                    />
+                    <input
+                      type="hidden"
+                      name="_subject"
+                      value="Заявка на консультацию"
+                    />
+                    <input type="hidden" name="_template" value="table" />
+
+                    <button type="submit" class="btn btn-custom">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
     <!-- Back to Top -->
     <a

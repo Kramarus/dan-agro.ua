@@ -158,7 +158,10 @@ html {
     
 }
 
-
+#fuelTable td {
+  min-width: 12rem;
+  text-align: center;
+}
 
 .tg {
   border-collapse: collapse;
