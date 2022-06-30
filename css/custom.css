@@ -136,6 +136,11 @@ html {
     align-items: center;
   }
 
+  button {
+    width: 20rem;
+    margin: 0.5rem;
+  }
+
   .overlay-hero-mobile {
     width: 100%;
     background-color: rgba(9, 90, 66, 0.5);  /*17, 87, 163*/
