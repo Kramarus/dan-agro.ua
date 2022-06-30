@@ -1,8 +1,14 @@
 /* CUSTOM STYLES*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #095A42; /*02231a*/
   overflow-x: hidden;
+  background: rgb(9,90,66);
+  background: linear-gradient(131deg, rgba(9,90,66,1) 0%, rgba(9,90,66,1) 35%, rgba(0,181,255,1) 100%);
+  
 }
 
 .logo-header {
@@ -38,7 +44,13 @@ body {
   filter: invert(100%);;
 }
 
+.modal-dialog .order-btn {
+  width: 8rem!important;
+}
 
+.modal-dialog .row {
+  width: 100%;
+}
 
 
 html {
@@ -171,54 +183,30 @@ html {
 }
 
 #fuelTable td {
-  min-width: 12rem;
+  min-width: 4rem;
   text-align: center;
 }
 
-.tg {
-  border-collapse: collapse;
-  border-spacing: 0;
+#generators .table1 td {
+  font-size: 1rem;
+  
 }
-.tg td {
-  border-color: #fff;
-  border-style: solid;
-  border-width: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
+
+#generators .table2 td {
+  font-size: 1rem;
 }
-.tg th {
-  border-color: #fff;
-  border-style: solid;
-  border-width: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
+
+#generators button {
+  width: 12rem;
 }
-.tg .tg-km2t {
-  border-color: #ffffff;
-  font-weight: bold;
-  text-align: left;
-  vertical-align: top;
+
+img:hover, button:hover {
+  transform: scale(1.1);
+  transition: all .5s;
 }
-.tg .tg-zv4m {
-  border-color: #ffffff;
-  text-align: left;
-  vertical-align: top;
-}
-.tg .tg-8jgo {
-  border-color: #ffffff;
-  text-align: center;
-  vertical-align: top;
-}
-.tg .tg-aw21 {
-  border-color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: top;
+
+.btn-group a {
+  margin: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid #ef7f1a;
 }

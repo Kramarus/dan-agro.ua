@@ -88,7 +88,7 @@
           <div class="col-2 col-lg-1 pe-3">
             <div class="dropdown m-3">
               <button
-                class="btn btn-dark py-3 dropdown-toggle"
+                class="btn btn-dark py-3 py-lg-2 dropdown-toggle"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
@@ -242,9 +242,6 @@
     </div>
     <!-- Hero End -->
 
-    <!-- Button trigger modal -->
-    <!-- Button trigger modal -->
-
     <!--Modal-->
     <div
       class="modal fade"
@@ -258,377 +255,1547 @@
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content custom-bg2">
           <div class="modal-header">
-            <div class="container">
-              <nav>
-                <div
-                  class="nav nav-tabs justify-content-center"
-                  id="nav-tab"
-                  role="tablist"
-                >
-                  <button
-                    class="nav-link fs-4 active"
-                    id="nav-home-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-home"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-home"
-                    aria-selected="true"
-                  >
-                    Характеристики теплогенератора DAN AGRO
-                  </button>
+            <div class="container text-center">
+              <div
+                class="btn-group"
+                role="group"
+                aria-label="Basic outlined example"
 
-                  <button
-                    class="nav-link fs-4"
-                    id="nav-profile-tab"
-                    data-bs-toggle="tab"
-                    data-bs-target="#nav-profile"
-                    type="button"
-                    role="tab"
-                    aria-controls="nav-profile"
-                    aria-selected="false"
-                  >
-                    Витрати палива (для різного типу палива)
-                  </button>
-                </div>
-              </nav>
+               
+              >
+              
+                  <a href="#danagro750">DAN AGRO 750</a>
+                
+              
+                  <a href="#danagro1000">DAN AGRO 1000</a>
+                
+              
+                  <a href="#danagro1500">DAN AGRO 1500</a>
+                
+              
+                  <a href="#danagro2000">DAN AGRO 2000</a>
+                
+              
+                  <a href="#danagro3000">DAN AGRO 3000</a>
+                
+              </div>
             </div>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-              style="position: fixed; right: 5rem;"
-            ></button>
           </div>
           <div class="modal-body">
             <!---->
             <div class="container">
-              <div class="tab-content" id="nav-tabContent">
-                <div
-                  class="tab-pane fade show active p-3"
-                  id="nav-home"
-                  role="tabpanel"
-                  aria-labelledby="nav-home-tab"
-                >
-                  <div class="container-fluid custom-bg2 bg-icon py-3">
-                    <h2 class="text-light text-center mb-4">
-                      Характеристики теплогенератора DAN AGRO
-                    </h2>
-                    <div class="row g-5 align-items-center">
-                      <div class="col-12">
-                        <table class="table text-light tg">
-                          <thead class="bg-light text-custom3">
-                            <tr>
-                              <th class="fs-5 text-center" colspan="3">
-                                Модель теплогенератора
-                              </th>
-                              <th class="fs-5 text-center" rowspan="2">
-                                DAN AGRO<br />750
-                              </th>
-                              <th class="fs-5 text-center" rowspan="2">
-                                DAN AGRO<br />1000
-                              </th>
-                              <th class="fs-5 text-center" rowspan="2">
-                                DAN AGRO<br />1500
-                              </th>
-                              <th class="fs-5 text-center" rowspan="2">
-                                DAN AGRO <br />2000
-                              </th>
-                              <th class="fs-5 text-center" rowspan="2">
-                                DAN AGRO<br />3000
-                              </th>
-                            </tr>
-                            <tr>
-                              <th class="fs-5 text-center">№</th>
-                              <th class="fs-5 text-center">Найменування</th>
-                              <th class="fs-5 text-center">Од.</th>
-                            </tr>
-                          </thead>
+              <div class="row h-100" id="generators">
+                <div class="col-12 text-center">
+                  <div class="card m-2 p-3">
+                    <!-- <p class="card-text">Some quick example text.</p> -->
+                    <div class="row align-items-center">
+                      <div id="danagro750" class="col-12 col-lg-4">
+                        <h5 class="card-title display-6">DAN AGRO 750</h5>
+                        <div class="border">
+                          <img
+                            src="./img/generator.png"
+                            class="card-img-top p-3"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="row justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg d-none d-lg-block my-2 py-sm-3 px-sm-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#order750"
+                          >
+                            Замовити
+                          </button>
+                          <div
+                            class="modal fade"
+                            id="order750"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="orderGeneratorLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content h-100">
+                                <div class="modal-header">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <h5 class="modal-title">
+                                        Замовити DAN AGRO 750
+                                      </h5>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <!--Form Original-->
+                                  <div class="container text-start">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12">
+                                        <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                                        <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                                        <form
+                                          action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                                          action
+                                          class="row justify-content-start g-2"
+                                          method="POST"
+                                        >
+                                          <label for="name" class="form-label"
+                                            >Ім'я або назва компанії
+                                            (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="name"
+                                            id="name"
+                                            required
+                                          />
+
+                                          <label
+                                            for="emailInfo"
+                                            class="form-label"
+                                            >Email (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control mb-3"
+                                            name="email"
+                                            id="emailInfo"
+                                            required
+                                          />
+
+                                          <label
+                                            for="phoneNumber"
+                                            class="form-label"
+                                            >Телефон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            required
+                                          />
+
+                                          <label for="region" class="form-label"
+                                            >Регіон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="region"
+                                            id="region"
+                                            required
+                                          />
+
+                                          <label
+                                            for="comments"
+                                            class="form-label"
+                                            >Коментар</label
+                                          >
+                                          <textarea
+                                            class="form-control"
+                                            id="comments"
+                                            name="message"
+                                            rows="3"
+                                          ></textarea>
+                                          <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://dan-agro.com.ua/thankyou.html"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="Замовлення генератору DAN AGRO 750"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                          />
+
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <button
+                                                type="submit"
+                                                class="btn btn-custom order-btn"
+                                              >
+                                                Замовити
+                                              </button>
+                                            </div>
+                                            <div class="col-6">
+                                              <button
+                                                type="button"
+                                                class="btn btn-danger order-btn"
+                                                data-bs-dismiss="modal"
+                                              >
+                                                Назад
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8 text-start">
+                        <table class="table table-sm table1 table-hover">
                           <tbody>
                             <tr>
-                              <td class="fs-6 text-center">1</td>
-                              <td class="fs-6 text-center">
-                                Теплова потужність ТГ
-                              </td>
-                              <td class="fs-6 text-center">кВт</td>
-                              <td class="fs-6 text-center">750</td>
-                              <td class="fs-6 text-center">1000</td>
-                              <td class="fs-6 text-center">1500</td>
-                              <td class="fs-6 text-center">2000</td>
-                              <td class="fs-6 text-center">3000</td>
+                              <td>Теплова потужність ТГ</td>
+                              <td>750 кВт</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">2</td>
-                              <td class="fs-6 text-center">
-                                Продуктивність по повітрю
-                              </td>
-                              <td class="fs-6 text-center">м³/год<br /></td>
-                              <td class="fs-6 text-center">27 000</td>
-                              <td class="fs-6 text-center">36 000</td>
-                              <td class="fs-6 text-center">54 000</td>
-                              <td class="fs-6 text-center">72 000</td>
-                              <td class="fs-6 text-center">108 000</td>
+                              <td>Продуктивність по повітрю</td>
+                              <td>27 000 м³/год</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">3</td>
-                              <td class="fs-6 text-center">
-                                Діапазон регулювання температури повітря
-                              </td>
-                              <td class="fs-6 text-center">°С</td>
-                              <td class="fs-6 text-center" colspan="5">
-                                50-120
-                              </td>
+                              <td>Діапазон регулювання температури повітря</td>
+                              <td>50°С - 120°С</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">4</td>
-                              <td class="fs-6 text-center">
-                                Встановлена електрична потужність
-                              </td>
-                              <td class="fs-6 text-center">кВт</td>
-                              <td class="fs-6 text-center">22</td>
-                              <td class="fs-6 text-center">33</td>
-                              <td class="fs-6 text-center">50</td>
-                              <td class="fs-6 text-center">70</td>
-                              <td class="fs-6 text-center">105</td>
+                              <td>Встановлена електрична потужність</td>
+                              <td>22 кВт</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">5</td>
-                              <td class="fs-6 text-center">
-                                Напруга живлення
-                              </td>
-                              <td class="fs-6 text-center">В</td>
-                              <td class="fs-6 text-center" colspan="5">
-                                380
-                              </td>
+                              <td>Напруга живлення</td>
+                              <td>380 В</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">6</td>
-                              <td class="fs-6 text-center">Вага</td>
-                              <td class="fs-6 text-center">тон</td>
-                              <td class="fs-6 text-center">4</td>
-                              <td class="fs-6 text-center">5</td>
-                              <td class="fs-6 text-center">7</td>
-                              <td class="fs-6 text-center">10</td>
-                              <td class="fs-6 text-center">14</td>
+                              <td>Вага</td>
+                              <td>4 т</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">7</td>
-                              <td class="fs-6 text-center">
-                                Площа для установки ТГ
-                              </td>
-                              <td class="fs-6 text-center">м²</td>
-                              <td class="fs-6 text-center">25</td>
-                              <td class="fs-6 text-center">35</td>
-                              <td class="fs-6 text-center">45</td>
-                              <td class="fs-6 text-center">60</td>
-                              <td class="fs-6 text-center">90</td>
+                              <td>Площа для установки</td>
+                              <td>25 м²</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">8</td>
-                              <td class="fs-6 text-center">
-                                Витрати палива на 1 т%
-                              </td>
-                              <td class="fs-6 text-center">кг/1т%</td>
-                              <td class="fs-6 text-center" colspan="5">
-                                9,0 - 15,0
-                              </td>
+                              <td>Об’єм бункера</td>
+                              <td>3м³</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">9</td>
-                              <td class="fs-6 text-center">
+                              <td>Витрати палива на 1 т%</td>
+                              <td>9,0 - 15,0 кг/1т%</td>
+                            </tr>
+                            <tr>
+                              <td>
                                 Продуктивність ТГ по сушці кукурудзи с 24% до
                                 14% вологи
                               </td>
-                              <td class="fs-6 text-center">т/год</td>
-                              <td class="fs-6 text-center">2</td>
-                              <td class="fs-6 text-center">3</td>
-                              <td class="fs-6 text-center">4</td>
-                              <td class="fs-6 text-center">5,5</td>
-                              <td class="fs-6 text-center">8</td>
+                              <td>2 т/год</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">10</td>
-                              <td class="fs-6 text-center">
+                              <td>
                                 Продуктивність ТГ по сушці кукурудзи с 20% до
                                 14% вологи
                               </td>
-                              <td class="fs-6 text-center">т/год</td>
-                              <td class="fs-6 text-center">3,3</td>
-                              <td class="fs-6 text-center">5</td>
-                              <td class="fs-6 text-center">6,6</td>
-                              <td class="fs-6 text-center">9,1</td>
-                              <td class="fs-6 text-center">13,3</td>
+                              <td>3,3 т/год</td>
                             </tr>
                           </tbody>
                         </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="tab-pane fade p-3"
-                  id="nav-profile"
-                  role="tabpanel"
-                  aria-labelledby="nav-profile-tab"
-                >
-                  <div class="container-fluid custom-bg2 bg-icon py-3">
-                    <h2 class="text-light text-center mb-4">
-                      Витрати палива (для різного типу палива)
-                    </h2>
-                    <div class="row g-5 align-items-center">
-                      <div class="col-12">
-                        <table class="tg table text-light">
-                          <!--Витрати палива (для різного типу палива)-->
-                          <thead class="bg-light text-custom3">
-                            <tr>
-                              <th class="fs-5 text-center align-middle">
-                                Найменування/Потужність
-                              </th>
-                              <th class="fs-5 text-center align-middle">
-                                Од.
-                              </th>
-                              <th class="fs-5 text-center align-middle">
-                                Пелета з деревини <br />(сосна)
-                              </th>
-                              <th class="fs-5 text-center align-middle">
-                                Стебла кукурудзи <br />(ІТТФ)<br />
-                              </th>
-                              <th class="fs-5 text-center align-middle">
-                                Стебла соняшника <br />(ІТТФ)<br />
-                              </th>
-                              <th class="fs-5 text-center align-middle">
-                                Деревна тріска <br />(Secbiomass)<br />
-                              </th>
-                            </tr>
-                          </thead>
+                        <table
+                          class="table table-sm table-bordered table2 table-hover"
+                          id="fuelTable"
+                        >
                           <tbody>
                             <tr>
-                              <td class="fs-6 text-center">
-                                Нижча теплота згорання, Qir
+                              <td class="text-start">
+                                <strong>Тип палива</strong>
                               </td>
-                              <td class="fs-6 text-center">МДж/кг</td>
-                              <td class="fs-6 text-center">17,51</td>
-                              <td class="fs-6 text-center">16,7</td>
-                              <td class="fs-6 text-center">16</td>
-                              <td class="fs-6 text-center">10,22</td>
+                              <td>Пелета з сосни</td>
+                              <!---->
+                              <td>Стебла кукурудзи</td>
+                              <!--ІТТФ-->
+                              <td>Стебла соняшника</td>
+                              <!--ІТТФ-->
+                              <td>Деревна тріска</td>
+                              <!--Secbiomass-->
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">
-                                Загальна волога, Wr
+                              <td class="text-start">
+                                <strong>Витрата (кг/год)</strong>
                               </td>
-                              <td class="fs-6 text-center">%</td>
-                              <td class="fs-6 text-center">9,9</td>
-                              <td class="fs-6 text-center">45</td>
-                              <td class="fs-6 text-center">45</td>
-                              <td class="fs-6 text-center">40</td>
+                              <td>183</td>
+                              <td>194</td>
+                              <td>213</td>
+                              <td>315</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center" rowspan="2">
-                                DAN AGRO-750<br />Об’єм бункера – 3м³
+                              <td class="text-start">
+                                <strong>Витрата (м³/добу)</strong>
                               </td>
-                              <td class="fs-6 text-center">кг/год</td>
-                              <td class="fs-6 text-center">183</td>
-                              <td class="fs-6 text-center">194</td>
-                              <td class="fs-6 text-center">213</td>
-                              <td class="fs-6 text-center">315</td>
+                              <td>13</td>
+                              <td>14</td>
+                              <td>15</td>
+                              <td>23</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">м³/добу</td>
-                              <td class="fs-6 text-center">13</td>
-                              <td class="fs-6 text-center">14</td>
-                              <td class="fs-6 text-center">15</td>
-                              <td class="fs-6 text-center">23</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center" rowspan="2">
-                                <span>DAN AGRO-1000</span><br />Об’єм
-                                <span>бункера – 3м³</span>
+                              <td class="text-start">
+                                <strong>Загальна волога, Wr</strong>
                               </td>
-                              <td class="fs-6 text-center">кг/год</td>
-                              <td class="fs-6 text-center">243</td>
-                              <td class="fs-6 text-center">259</td>
-                              <td class="fs-6 text-center">284</td>
-                              <td class="fs-6 text-center">420</td>
+                              <td>9,9</td>
+                              <td>45</td>
+                              <td>45</td>
+                              <td>40</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">м³/добу</td>
-                              <td class="fs-6 text-center">18</td>
-                              <td class="fs-6 text-center">19</td>
-                              <td class="fs-6 text-center">21</td>
-                              <td class="fs-6 text-center">31</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center" rowspan="2">
-                                <span>DAN AGRO-1500</span><br />Об’єм
-                                <span>бункера – 4,5м³</span>
+                              <td class="text-start">
+                                <strong>Нижча теплота згорання, Qir</strong>
                               </td>
-                              <td class="fs-6 text-center">кг/год</td>
-                              <td class="fs-6 text-center">365</td>
-                              <td class="fs-6 text-center">389</td>
-                              <td class="fs-6 text-center">426</td>
-                              <td class="fs-6 text-center">630</td>
+                              <td>17,51</td>
+                              <td>16,7</td>
+                              <td>16</td>
+                              <td>10,22</td>
                             </tr>
                             <tr>
-                              <td class="fs-6 text-center">м³/добу</td>
-                              <td class="fs-6 text-center">27</td>
-                              <td class="fs-6 text-center">28</td>
-                              <td class="fs-6 text-center">31</td>
-                              <td class="fs-6 text-center">46</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center" rowspan="2">
-                                <span>DAN AGRO-2000</span><br />Об’єм
-                                <span>бункера – 7,5м³</span>
+                              <td class="text-start">
+                                <strong>Витрати палива на 1т%</strong>
                               </td>
-                              <td class="fs-6 text-center">кг/год</td>
-                              <td class="fs-6 text-center">487</td>
-                              <td class="fs-6 text-center">519</td>
-                              <td class="fs-6 text-center">569</td>
-                              <td class="fs-6 text-center">841</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center">м³/добу</td>
-                              <td class="fs-6 text-center">35</td>
-                              <td class="fs-6 text-center">38</td>
-                              <td class="fs-6 text-center">41</td>
-                              <td class="fs-6 text-center">61</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center" rowspan="2">
-                                <span>DAN AGRO-3000</span><br />Об’єм
-                                <span>бункера – 7,5м³</span>
-                              </td>
-                              <td class="fs-6 text-center">кг/год</td>
-                              <td class="fs-6 text-center">730</td>
-                              <td class="fs-6 text-center">778</td>
-                              <td class="fs-6 text-center">853</td>
-                              <td class="fs-6 text-center">1261</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center">м³/добу</td>
-                              <td class="fs-6 text-center">53</td>
-                              <td class="fs-6 text-center">57</td>
-                              <td class="fs-6 text-center">62</td>
-                              <td class="fs-6 text-center">92</td>
-                            </tr>
-                            <tr>
-                              <td class="fs-6 text-center">
-                                Витрати палива на 1т%<br />
-                              </td>
-                              <td class="fs-6 text-center">кг/1т%</td>
-                              <td class="fs-6 text-center">9,0</td>
-                              <td class="fs-6 text-center">9,6</td>
-                              <td class="fs-6 text-center">10,5</td>
-                              <td class="fs-6 text-center">15,6</td>
+                              <td>9,0 кг</td>
+                              <td>9,6 кг</td>
+                              <td>10,5 кг</td>
+                              <td>15,6 кг</td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
                     </div>
+
+                    <div class="row align-items-center d-lg-none">
+                      <div class="col-12 text-center">
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg my-2 py-sm-3 px-sm-3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#order750"
+                        >
+                          Замовити
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <div class="col-12 text-center">
+                  <div class="card m-2 p-3">
+                    <!-- <p class="card-text">Some quick example text.</p> -->
+                    <div class="row align-items-center">
+                      <div id="danagro1000" class="col-12 col-lg-4">
+                        <h5 class="card-title display-6">DAN AGRO 1000</h5>
+                        <div class="border">
+                          <img
+                            src="./img/generator.png"
+                            class="card-img-top p-3"
+                            alt="..."
+                          />
+                        </div>
+
+                        <div class="row justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg d-none d-lg-block my-2 py-sm-3 px-sm-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#order1000"
+                          >
+                            Замовити
+                          </button>
+                          <div
+                            class="modal fade"
+                            id="order1000"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="orderGeneratorLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content border h-100">
+                                <div class="modal-header">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <h5 class="modal-title">
+                                        Замовити DAN AGRO 1000
+                                      </h5>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <!--Form Original-->
+                                  <div class="container text-start">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12">
+                                        <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                                        <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                                        <form
+                                          action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                                          action
+                                          class="row justify-content-start g-2"
+                                          method="POST"
+                                        >
+                                          <label for="name" class="form-label"
+                                            >Ім'я або назва компанії
+                                            (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="name"
+                                            id="name"
+                                            required
+                                          />
+
+                                          <label
+                                            for="emailInfo"
+                                            class="form-label"
+                                            >Email (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control mb-3"
+                                            name="email"
+                                            id="emailInfo"
+                                            required
+                                          />
+
+                                          <label
+                                            for="phoneNumber"
+                                            class="form-label"
+                                            >Телефон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            required
+                                          />
+
+                                          <label for="region" class="form-label"
+                                            >Регіон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="region"
+                                            id="region"
+                                            required
+                                          />
+
+                                          <label
+                                            for="comments"
+                                            class="form-label"
+                                            >Коментар</label
+                                          >
+                                          <textarea
+                                            class="form-control"
+                                            id="comments"
+                                            name="message"
+                                            rows="3"
+                                          ></textarea>
+                                          <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://dan-agro.com.ua/thankyou.html"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="Замовлення генератору DAN AGRO 1000"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                          />
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <button
+                                                type="submit"
+                                                class="btn btn-custom order-btn"
+                                              >
+                                                Замовити
+                                              </button>
+                                            </div>
+                                            <div class="col-6">
+                                              <button
+                                                type="button"
+                                                class="btn btn-danger order-btn"
+                                                data-bs-dismiss="modal"
+                                              >
+                                                Назад
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8 text-start">
+                        <table class="table table-sm table1 table-hover">
+                          <tbody>
+                            <tr>
+                              <td>Теплова потужність ТГ</td>
+                              <td>1000 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Продуктивність по повітрю</td>
+                              <td>36 000 м³/год</td>
+                            </tr>
+                            <tr>
+                              <td>Діапазон регулювання температури повітря</td>
+                              <td>50°С - 120°С</td>
+                            </tr>
+                            <tr>
+                              <td>Встановлена електрична потужність</td>
+                              <td>33 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Напруга живлення</td>
+                              <td>380 В</td>
+                            </tr>
+                            <tr>
+                              <td>Вага</td>
+                              <td>5 т</td>
+                            </tr>
+                            <tr>
+                              <td>Площа для установки</td>
+                              <td>35 м²</td>
+                            </tr>
+                            <tr>
+                              <td>Об’єм бункера</td>
+                              <td>3м³</td>
+                            </tr>
+                            <tr>
+                              <td>Витрати палива на 1 т%</td>
+                              <td>9,0 - 15,0 кг/1т%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 24% до
+                                14% вологи
+                              </td>
+                              <td>3 т/год</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 20% до
+                                14% вологи
+                              </td>
+                              <td>5 т/год</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          class="table table-sm table-bordered table2 table-hover"
+                          id="fuelTable"
+                        >
+                          <tbody>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Тип палива</strong>
+                              </td>
+                              <td>Пелета з сосни</td>
+                              <!---->
+                              <td>Стебла кукурудзи</td>
+                              <!--ІТТФ-->
+                              <td>Стебла соняшника</td>
+                              <!--ІТТФ-->
+                              <td>Деревна тріска</td>
+                              <!--Secbiomass-->
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (кг/год)</strong>
+                              </td>
+                              <td>243</td>
+                              <td>259</td>
+                              <td>284</td>
+                              <td>420</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (м³/добу)</strong>
+                              </td>
+                              <td>18</td>
+                              <td>19</td>
+                              <td>21</td>
+                              <td>31</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Загальна волога, Wr</strong>
+                              </td>
+                              <td>9,9</td>
+                              <td>45</td>
+                              <td>45</td>
+                              <td>40</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Нижча теплота згорання, Qir</strong>
+                              </td>
+                              <td>17,51</td>
+                              <td>16,7</td>
+                              <td>16</td>
+                              <td>10,22</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрати палива на 1т%</strong>
+                              </td>
+                              <td>9,0 кг</td>
+                              <td>9,6 кг</td>
+                              <td>10,5 кг</td>
+                              <td>15,6 кг</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="row align-items-center d-lg-none">
+                      <div class="col-12 text-center">
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg my-2 py-sm-3 px-sm-3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#order1000"
+                        >
+                          Замовити
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="card m-2 p-3">
+                    <!-- <p class="card-text">Some quick example text.</p> -->
+                    <div class="row align-items-center">
+                      <div id="danagro1500" class="col-12 col-lg-4">
+                        <h5 class="card-title display-6">DAN AGRO 1500</h5>
+                        <div class="border">
+                          <img
+                            src="./img/generator.png"
+                            class="card-img-top p-3"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="row justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg d-none d-lg-block my-2 py-sm-3 px-sm-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#order1500"
+                          >
+                            Замовити
+                          </button>
+                          <div
+                            class="modal fade"
+                            id="order1500"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="orderGeneratorLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content border h-100">
+                                <div class="modal-header">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <h5 class="modal-title">
+                                        Замовити DAN AGRO 1500
+                                      </h5>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <!--Form Original-->
+                                  <div class="container text-start">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12">
+                                        <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                                        <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                                        <form
+                                          action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                                          action
+                                          class="row justify-content-start g-2"
+                                          method="POST"
+                                        >
+                                          <label for="name" class="form-label"
+                                            >Ім'я або назва компанії
+                                            (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="name"
+                                            id="name"
+                                            required
+                                          />
+
+                                          <label
+                                            for="emailInfo"
+                                            class="form-label"
+                                            >Email (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control mb-3"
+                                            name="email"
+                                            id="emailInfo"
+                                            required
+                                          />
+
+                                          <label
+                                            for="phoneNumber"
+                                            class="form-label"
+                                            >Телефон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            required
+                                          />
+
+                                          <label for="region" class="form-label"
+                                            >Регіон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="region"
+                                            id="region"
+                                            required
+                                          />
+
+                                          <label
+                                            for="comments"
+                                            class="form-label"
+                                            >Коментар</label
+                                          >
+                                          <textarea
+                                            class="form-control"
+                                            id="comments"
+                                            name="message"
+                                            rows="3"
+                                          ></textarea>
+                                          <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://dan-agro.com.ua/thankyou.html"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="Замовлення генератору DAN AGRO 1500"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                          />
+
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <button
+                                                type="submit"
+                                                class="btn btn-custom order-btn"
+                                              >
+                                                Замовити
+                                              </button>
+                                            </div>
+                                            <div class="col-6">
+                                              <button
+                                                type="button"
+                                                class="btn btn-danger order-btn"
+                                                data-bs-dismiss="modal"
+                                              >
+                                                Назад
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8 text-start">
+                        <table class="table table-sm table1 table-hover">
+                          <tbody>
+                            <tr>
+                              <td>Теплова потужність ТГ</td>
+                              <td>1500 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Продуктивність по повітрю</td>
+                              <td>54 000 м³/год</td>
+                            </tr>
+                            <tr>
+                              <td>Діапазон регулювання температури повітря</td>
+                              <td>50°С - 120°С</td>
+                            </tr>
+                            <tr>
+                              <td>Встановлена електрична потужність</td>
+                              <td>50 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Напруга живлення</td>
+                              <td>380 В</td>
+                            </tr>
+                            <tr>
+                              <td>Вага</td>
+                              <td>7 т</td>
+                            </tr>
+                            <tr>
+                              <td>Площа для установки</td>
+                              <td>45 м²</td>
+                            </tr>
+                            <tr>
+                              <td>Об’єм бункера</td>
+                              <td>4,5м³</td>
+                            </tr>
+                            <tr>
+                              <td>Витрати палива на 1 т%</td>
+                              <td>9,0 - 15,0 кг/1т%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 24% до
+                                14% вологи
+                              </td>
+                              <td>4 т/год</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 20% до
+                                14% вологи
+                              </td>
+                              <td>6,6 т/год</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          class="table table-sm table-bordered table2 table-hover"
+                          id="fuelTable"
+                        >
+                          <tbody>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Тип палива</strong>
+                              </td>
+                              <td>Пелета з сосни</td>
+                              <!---->
+                              <td>Стебла кукурудзи</td>
+                              <!--ІТТФ-->
+                              <td>Стебла соняшника</td>
+                              <!--ІТТФ-->
+                              <td>Деревна тріска</td>
+                              <!--Secbiomass-->
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (кг/год)</strong>
+                              </td>
+                              <td>365</td>
+                              <td>389</td>
+                              <td>426</td>
+                              <td>630</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (м³/добу)</strong>
+                              </td>
+                              <td>27</td>
+                              <td>28</td>
+                              <td>31</td>
+                              <td>46</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Загальна волога, Wr</strong>
+                              </td>
+                              <td>9,9</td>
+                              <td>45</td>
+                              <td>45</td>
+                              <td>40</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Нижча теплота згорання, Qir</strong>
+                              </td>
+                              <td>17,51</td>
+                              <td>16,7</td>
+                              <td>16</td>
+                              <td>10,22</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрати палива на 1т%</strong>
+                              </td>
+                              <td>9,0 кг</td>
+                              <td>9,6 кг</td>
+                              <td>10,5 кг</td>
+                              <td>15,6 кг</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="row align-items-center d-lg-none">
+                      <div class="col-12 text-center">
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg my-2 py-sm-3 px-sm-3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#order1500"
+                        >
+                          Замовити
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="card m-2 p-3">
+                    <!-- <p class="card-text">Some quick example text.</p> -->
+                    <div class="row align-items-center">
+                      <div id="danagro2000" class="col-12 col-lg-4">
+                        <h5 class="card-title display-6">DAN AGRO 2000</h5>
+                        <div class="border">
+                          <img
+                            src="./img/generator.png"
+                            class="card-img-top p-3"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="row justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg d-none d-lg-block my-2 py-sm-3 px-sm-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#order2000"
+                          >
+                            Замовити
+                          </button>
+                          <div
+                            class="modal fade"
+                            id="order2000"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="orderGeneratorLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content border h-100">
+                                <div class="modal-header">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <h5 class="modal-title">
+                                        Замовити DAN AGRO 2000
+                                      </h5>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <!--Form Original-->
+                                  <div class="container text-start">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12">
+                                        <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                                        <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                                        <form
+                                          action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                                          action
+                                          class="row justify-content-start g-2"
+                                          method="POST"
+                                        >
+                                          <label for="name" class="form-label"
+                                            >Ім'я або назва компанії
+                                            (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="name"
+                                            id="name"
+                                            required
+                                          />
+
+                                          <label
+                                            for="emailInfo"
+                                            class="form-label"
+                                            >Email (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control mb-3"
+                                            name="email"
+                                            id="emailInfo"
+                                            required
+                                          />
+
+                                          <label
+                                            for="phoneNumber"
+                                            class="form-label"
+                                            >Телефон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            required
+                                          />
+
+                                          <label for="region" class="form-label"
+                                            >Регіон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="region"
+                                            id="region"
+                                            required
+                                          />
+
+                                          <label
+                                            for="comments"
+                                            class="form-label"
+                                            >Коментар</label
+                                          >
+                                          <textarea
+                                            class="form-control"
+                                            id="comments"
+                                            name="message"
+                                            rows="3"
+                                          ></textarea>
+                                          <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://dan-agro.com.ua/thankyou.html"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="Замовлення генератору DAN AGRO 2000"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                          />
+
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <button
+                                                type="submit"
+                                                class="btn btn-custom order-btn"
+                                              >
+                                                Замовити
+                                              </button>
+                                            </div>
+                                            <div class="col-6">
+                                              <button
+                                                type="button"
+                                                class="btn btn-danger order-btn"
+                                                data-bs-dismiss="modal"
+                                              >
+                                                Назад
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8 text-start">
+                        <table class="table table-sm table1 table-hover">
+                          <tbody>
+                            <tr>
+                              <td>Теплова потужність ТГ</td>
+                              <td>2000 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Продуктивність по повітрю</td>
+                              <td>72 000 м³/год</td>
+                            </tr>
+                            <tr>
+                              <td>Діапазон регулювання температури повітря</td>
+                              <td>50°С - 120°С</td>
+                            </tr>
+                            <tr>
+                              <td>Встановлена електрична потужність</td>
+                              <td>70 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Напруга живлення</td>
+                              <td>380 В</td>
+                            </tr>
+                            <tr>
+                              <td>Вага</td>
+                              <td>10 т</td>
+                            </tr>
+                            <tr>
+                              <td>Площа для установки</td>
+                              <td>60 м²</td>
+                            </tr>
+                            <tr>
+                              <td>Об’єм бункера</td>
+                              <td>7,5м³</td>
+                            </tr>
+                            <tr>
+                              <td>Витрати палива на 1 т%</td>
+                              <td>9,0 - 15,0 кг/1т%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 24% до
+                                14% вологи
+                              </td>
+                              <td>5,5 т/год</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 20% до
+                                14% вологи
+                              </td>
+                              <td>9,1 т/год</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          class="table table-sm table-bordered table2 table-hover"
+                          id="fuelTable"
+                        >
+                          <tbody>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Тип палива</strong>
+                              </td>
+                              <td>Пелета з сосни</td>
+                              <!---->
+                              <td>Стебла кукурудзи</td>
+                              <!--ІТТФ-->
+                              <td>Стебла соняшника</td>
+                              <!--ІТТФ-->
+                              <td>Деревна тріска</td>
+                              <!--Secbiomass-->
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (кг/год)</strong>
+                              </td>
+                              <td>487</td>
+                              <td>519</td>
+                              <td>569</td>
+                              <td>841</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (м³/добу)</strong>
+                              </td>
+                              <td>35</td>
+                              <td>38</td>
+                              <td>41</td>
+                              <td>61</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Загальна волога, Wr</strong>
+                              </td>
+                              <td>9,9</td>
+                              <td>45</td>
+                              <td>45</td>
+                              <td>40</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Нижча теплота згорання, Qir</strong>
+                              </td>
+                              <td>17,51</td>
+                              <td>16,7</td>
+                              <td>16</td>
+                              <td>10,22</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрати палива на 1т%</strong>
+                              </td>
+                              <td>9,0 кг</td>
+                              <td>9,6 кг</td>
+                              <td>10,5 кг</td>
+                              <td>15,6 кг</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="row align-items-center d-lg-none">
+                      <div class="col-12 text-center">
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg my-2 py-sm-3 px-sm-3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#order2000"
+                        >
+                          Замовити
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="card m-2 p-3">
+                    <!-- <p class="card-text">Some quick example text.</p> -->
+                    <div class="row align-items-center">
+                      <div id="danagro3000" class="col-12 col-lg-4">
+                        <h5 class="card-title display-6">DAN AGRO 3000</h5>
+                        <div class="border">
+                          <img
+                            src="./img/generator.png"
+                            class="card-img-top p-3"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="row justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg d-none d-lg-block my-2 py-sm-3 px-sm-3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#order3000"
+                          >
+                            Замовити
+                          </button>
+                          <div
+                            class="modal fade"
+                            id="order3000"
+                            data-bs-backdrop="static"
+                            data-bs-keyboard="false"
+                            tabindex="-1"
+                            aria-labelledby="orderGeneratorLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content border h-100">
+                                <div class="modal-header">
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <h5 class="modal-title">
+                                        Замовити DAN AGRO 3000
+                                      </h5>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <!--Form Original-->
+                                  <div class="container text-start">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12">
+                                        <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                                        <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                                        <form
+                                          action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                                          action
+                                          class="row justify-content-start g-2"
+                                          method="POST"
+                                        >
+                                          <label for="name" class="form-label"
+                                            >Ім'я або назва компанії
+                                            (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="name"
+                                            id="name"
+                                            required
+                                          />
+
+                                          <label
+                                            for="emailInfo"
+                                            class="form-label"
+                                            >Email (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="email"
+                                            class="form-control mb-3"
+                                            name="email"
+                                            id="emailInfo"
+                                            required
+                                          />
+
+                                          <label
+                                            for="phoneNumber"
+                                            class="form-label"
+                                            >Телефон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="phoneNumber"
+                                            id="phoneNumber"
+                                            required
+                                          />
+
+                                          <label for="region" class="form-label"
+                                            >Регіон (обов'язкове поле)</label
+                                          >
+                                          <input
+                                            type="text"
+                                            class="form-control mb-3"
+                                            name="region"
+                                            id="region"
+                                            required
+                                          />
+
+                                          <label
+                                            for="comments"
+                                            class="form-label"
+                                            >Коментар</label
+                                          >
+                                          <textarea
+                                            class="form-control"
+                                            id="comments"
+                                            name="message"
+                                            rows="3"
+                                          ></textarea>
+                                          <input
+                                            type="hidden"
+                                            name="_captcha"
+                                            value="false"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_next"
+                                            value="https://dan-agro.com.ua/thankyou.html"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_subject"
+                                            value="Замовлення генератору DAN AGRO 3000"
+                                          />
+                                          <input
+                                            type="hidden"
+                                            name="_template"
+                                            value="table"
+                                          />
+                                          <div class="row">
+                                            <div class="col-6">
+                                              <button
+                                                type="submit"
+                                                class="btn btn-custom order-btn"
+                                              >
+                                                Замовити
+                                              </button>
+                                            </div>
+                                            <div class="col-6">
+                                              <button
+                                                type="button"
+                                                class="btn btn-danger order-btn"
+                                                data-bs-dismiss="modal"
+                                              >
+                                                Назад
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-8 text-start">
+                        <table class="table table-sm table1 table-hover">
+                          <tbody>
+                            <tr>
+                              <td>Теплова потужність ТГ</td>
+                              <td>3000 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Продуктивність по повітрю</td>
+                              <td>108 000 м³/год</td>
+                            </tr>
+                            <tr>
+                              <td>Діапазон регулювання температури повітря</td>
+                              <td>50°С - 120°С</td>
+                            </tr>
+                            <tr>
+                              <td>Встановлена електрична потужність</td>
+                              <td>105 кВт</td>
+                            </tr>
+                            <tr>
+                              <td>Напруга живлення</td>
+                              <td>380 В</td>
+                            </tr>
+                            <tr>
+                              <td>Вага</td>
+                              <td>14 т</td>
+                            </tr>
+                            <tr>
+                              <td>Площа для установки</td>
+                              <td>90 м²</td>
+                            </tr>
+                            <tr>
+                              <td>Об’єм бункера</td>
+                              <td>7,5м³</td>
+                            </tr>
+                            <tr>
+                              <td>Витрати палива на 1 т%</td>
+                              <td>9,0 - 15,0 кг/1т%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 24% до
+                                14% вологи
+                              </td>
+                              <td>8 т/год</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Продуктивність ТГ по сушці кукурудзи с 20% до
+                                14% вологи
+                              </td>
+                              <td>13,3 т/год</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <table
+                          class="table table-sm table-bordered table2 table-hover"
+                          id="fuelTable"
+                        >
+                          <tbody>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Тип палива</strong>
+                              </td>
+                              <td>Пелета з сосни</td>
+                              <!---->
+                              <td>Стебла кукурудзи</td>
+                              <!--ІТТФ-->
+                              <td>Стебла соняшника</td>
+                              <!--ІТТФ-->
+                              <td>Деревна тріска</td>
+                              <!--Secbiomass-->
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (кг/год)</strong>
+                              </td>
+                              <td>730</td>
+                              <td>778</td>
+                              <td>853</td>
+                              <td>1261</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрата (м³/добу)</strong>
+                              </td>
+                              <td>53</td>
+                              <td>57</td>
+                              <td>62</td>
+                              <td>92</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Загальна волога, Wr</strong>
+                              </td>
+                              <td>9,9</td>
+                              <td>45</td>
+                              <td>45</td>
+                              <td>40</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Нижча теплота згорання, Qir</strong>
+                              </td>
+                              <td>17,51</td>
+                              <td>16,7</td>
+                              <td>16</td>
+                              <td>10,22</td>
+                            </tr>
+                            <tr>
+                              <td class="text-start">
+                                <strong>Витрати палива на 1т%</strong>
+                              </td>
+                              <td>9,0 кг</td>
+                              <td>9,6 кг</td>
+                              <td>10,5 кг</td>
+                              <td>15,6 кг</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <div class="row align-items-center d-lg-none">
+                      <div class="col-12 text-center">
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg my-2 py-sm-3 px-sm-3"
+                          data-bs-toggle="modal"
+                          data-bs-target="#order3000"
+                        >
+                          Замовити
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Card template-->
+
+                <!--Card template-->
               </div>
             </div>
             <!---->
@@ -636,7 +1803,7 @@
           <div class="modal-footer justify-content-center">
             <div class="row align-items-center">
               <div class="col-12 text-center">
-                <div class="hero-cta w-100">
+                <div class="">
                   <button
                     type="button"
                     class="btn btn-primary py-sm-3 px-sm-3"
@@ -711,7 +1878,6 @@
                                     class="form-control mb-3"
                                     name="phoneNumber"
                                     id="phoneNumber"
-                                    placeholder="+380501234567"
                                     required
                                   />
 
@@ -1235,17 +2401,17 @@
     <!-- Feature End -->
 
     <!-- CTA Section Start -->
-    <div class="container-fluid custom-bg2 hero-design bg-icon py-6">
+    <div class="container-fluid py-6">
       <div class="container">
         <div class="row g-5 align-items-center">
-          <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+          <div class="col-12 col-lg-8 wow fadeIn" data-wow-delay="0.1s">
             <h2 class="text-white mb-3 text-center text-lg-start">
               Автоматизований теплогенератор  DAN AGRO обладнаний вбудованим
               теплообмінником для нагріву технологічного повітря
             </h2>
           </div>
           <div
-            class="col-12 col-md-4 text-center wow fadeIn"
+            class="col-12 col-lg-4 text-center wow fadeIn"
             data-wow-delay="0.5s"
           >
             <div class="text-center">
@@ -1339,7 +2505,7 @@
 
     <!-- About End -->
     <!-- CTA Section Start -->
-    <section class="hero-design custom-bg2" id="extra-service">
+    <section class="" id="extra-service">
       <div class="container py-5">
         <div class="section-title py-5">
           <h2 class="text-center text-light">
@@ -1375,10 +2541,7 @@
           </div>
         </div>
         <div class="row g-5 align-items-center mt-4">
-          <div
-            class="col-12 col-md-4 text-center wow fadeIn"
-            data-wow-delay="0.5s"
-          >
+          <div class="col-12 text-center wow fadeIn" data-wow-delay="0.5s">
             <div class="text-center">
               <button
                 type="button"
@@ -1391,7 +2554,7 @@
 
               <button
                 type="button"
-                class="btn btn-outline-light btn-lg py-sm-3 px-sm-3"
+                class="btn btn-outline-light btn-lg py-sm-3 px-sm-3 mb-3"
                 data-bs-toggle="modal"
                 data-bs-target="#contactManager"
               >
@@ -1463,7 +2626,7 @@
     <!-- Components -->
     <!-- CTA Section Start -->
 
-    <div class="hero-design container-fluid custom-bg2 bg-icon py-6">
+    <div class="container-fluid bg-icon py-6">
       <div class="container">
         <div class="row g-5 align-items-center">
           <div
@@ -1592,33 +2755,9 @@
 
     <!-- Components -->
 
-    <!-- Firm Visit Start -->
-    <!--
-    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
-      <div class="container">
-        <div class="row g-5 align-items-center">
-          <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
-            <h1 class="display-5 text-white mb-3">Visit Our Firm</h1>
-            <p class="text-white mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet. Diam dolor diam
-              ipsum sit. Aliqu diam amet diam et eos.
-            </p>
-          </div>
-          <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
-            <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href=""
-              >Visit Now</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Firm Visit End -->
-
     <!-- Testimonial Start -->
 
-    <div class="container-fluid custom-bg2 bg-icon py-6">
+    <div class="container-fluid bg-icon py-6">
       <div class="container">
         <div
           class="section-header text-center mx-auto mb-5 wow fadeInUp"
@@ -1627,7 +2766,7 @@
         >
           <h2 class="mb-3 text-light">Наші партнери</h2>
         </div>
-        <div class="row bg-light align-items-center justify-content-around">
+        <div class="row align-items-center justify-content-around">
           <div class="col-12 col-md-4">
             <img class="img-fluid w-100" src="./img/partner1.png" alt="" />
           </div>
@@ -1656,7 +2795,7 @@
         </div>
         <div class="row g-4">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img class="img-fluid" src="img/blog-1.jpg" alt="" />
+            <img class="img-fluid" src="img/blog-2.jpg" alt="" />
             <div class="bg-light p-4">
               <a class="d-block h5 lh-base mb-4" href=""
                 >How to cultivate organic fruits and vegetables in own firm</a
@@ -1690,7 +2829,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <img class="img-fluid" src="img/blog-3.jpg" alt="" />
+            <img class="img-fluid" src="img/blog-2.jpg" alt="" />
             <div class="bg-light p-4">
               <a class="d-block h5 lh-base mb-4" href=""
                 >How to cultivate organic fruits and vegetables in own firm</a
@@ -1763,18 +2902,27 @@
               </p>
               <p>
                 <i class="fa fa-phone-alt me-3"></i
-                ><a href="tel:+380503827551">+38 (050) 382 75 51</a>
+                ><a class="text-light fw-bold" href="tel:+380503827551"
+                  >+38 (050) 382 75 51</a
+                >
               </p>
               <p>
                 <i class="fa fa-phone-alt me-3"></i
-                ><a href="tel:+380503827600">+38 (050) 382 76 00</a>
+                ><a class="text-light fw-bold" href="tel:+380503827600"
+                  >+38 (050) 382 76 00</a
+                >
               </p>
               <p>
                 <i class="fa fa-phone-alt me-3"></i
-                ><a href="tel:+380500501303">+38 (050) 050 13 03</a>
+                ><a class="text-light fw-bold" href="tel:+380500501303"
+                  >+38 (050) 050 13 03</a
+                >
               </p>
               <p>
-                <i class="fa fa-envelope me-3"></i>marketing.danagro@gmail.com
+                <i class="fa fa-envelope me-3"></i
+                ><a href="mailto:marketing.danagro@gmail.com" class="text-light"
+                  >marketing.danagro@gmail.com</a
+                >
               </p>
             </div>
             <div class="col-12 col-lg-3 text-center text-md-start text-light">
@@ -1813,35 +2961,10 @@
                 <input type="hidden" name="_template" value="table" />
 
                 <button type="submit" class="btn btn-outline-light btn-lg m-0">
-                  Підписатися на сповіщення
+                  Підписатися
                 </button>
               </form>
             </div>
-            <!-- <div class="col-lg-3 col-md-6">
-            <h4 class="text-light mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div> -->
-            <!-- <div class="col-lg-3 col-md-6">
-            <h4 class="text-light mb-4">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px;">
-              <input
-                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
-          </div> -->
           </div>
         </div>
         <div class="container-fluid copyright">
