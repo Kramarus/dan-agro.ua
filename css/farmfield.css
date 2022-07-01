@@ -235,7 +235,7 @@
   transition: 0.3s;
   border: 1.5px solid #ffffff;
   border-radius: 5px;
-  width: 190px;
+  width: 16rem;
 }
 
 .ff-overlay a:hover, .ff-overlay a.active {
@@ -250,7 +250,8 @@
 
 .ff-overlay-content {
   position: relative;
-  top: 20%;
+  top: 5%;
+  border: 1px solid white;
   width: 100%;
   text-align: center;
   margin-top: 30px;

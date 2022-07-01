@@ -14,6 +14,10 @@ body {
   height: 6rem;
 }
 
+.logo-header-menu {
+  height: 8rem;
+}
+
 .hero-image {
   width: 100vw;
   height: 100vh;
