@@ -4,11 +4,10 @@ html {
 }
 
 body {
-  background-color: #095A42; /*02231a*/
+  background-color: #095a42; /*02231a*/
   overflow-x: hidden;
-  background: rgb(9,90,66);
+  background: rgb(9, 90, 66);
   /* background: linear-gradient(131deg, rgba(9,90,66,1) 0%, rgba(9,90,66,1) 35%, rgba(0,181,255,1) 100%); */
-  
 }
 
 .logo-header {
@@ -25,33 +24,34 @@ body {
   /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%); */
 }
 
-.hero-design {
-  background-color: rgba(239,127,26,0.3);
-  clip-path: polygon(3% 5%, 100% 0%, 100% 100%, 3% 95%);
-}
+@media screen and (min-width: 1024px) {
+  .hero-design {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(3% 5%, 100% 0%, 100% 100%, 3% 95%);
+  }
 
-.hero-design2 {
-  background-color: rgba(239,127,26,0.3);
-  clip-path: polygon(0% 0, 97% 5%, 97% 95%, 0% 100%);
-}
+  .hero-design2 {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(0% 0, 97% 5%, 97% 95%, 0% 100%);
+  }
 
-.hero-design3 {
-  background-color: rgba(239,127,26,0.3);
-  clip-path: polygon(3% 15%, 100% 8%, 100% 95%, 3% 85%);
+  .hero-design3 {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(3% 15%, 100% 8%, 100% 95%, 3% 85%);
+  }
 }
 
 .logo-black {
-  filter: invert(100%);;
+  filter: invert(100%);
 }
 
 .modal-dialog .order-btn {
-  width: 8rem!important;
+  width: 8rem !important;
 }
 
 .modal-dialog .row {
   width: 100%;
 }
-
 
 html {
   overflow-x: hidden;
@@ -71,7 +71,7 @@ html {
 }
 
 .custom-bg2 {
-  background-color: #095A42; /*02231a*/
+  background-color: #095a42; /*02231a*/
 }
 
 .custom-bg3 {
@@ -87,7 +87,7 @@ html {
 }
 
 .text-custom3 {
-  color: #095A42;
+  color: #095a42;
 }
 
 #extra-service img {
@@ -95,8 +95,7 @@ html {
 }
 
 .extra-bg {
-    background-image: url(../img/extra-bg3.jpg);
-    
+  background-image: url(../img/extra-bg3.jpg);
 }
 
 .hero-cta {
@@ -135,51 +134,49 @@ html {
 }
 
 .overlay-light {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
-  .overlay-hero {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(9, 90, 66, 0.5);  /*17, 87, 163*/
-    display: flex;
-    align-items: center;
-  }
+.overlay-hero {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
 
-  button {
-    width: 20rem;
-    margin: 0.5rem;
-  }
+button {
+  width: 20rem;
+  margin: 0.5rem;
+}
 
-  .overlay-hero-mobile {
-    width: 100%;
-    background-color: rgba(9, 90, 66, 0.5);  /*17, 87, 163*/
-    display: flex;
-    align-items: center;
-  }
+.overlay-hero-mobile {
+  width: 100%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
 
-  .overlay-hero-lg {
-    height: 100%;
-    background-color: rgba(9, 90, 66, 0.5);  /*17, 87, 163*/
-    display: flex;
-    align-items: center;
-  }
+.overlay-hero-lg {
+  height: 100%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
 
-  .overlay-hero-lg img {
-    width: 80%;
-  }
-
+.overlay-hero-lg img {
+  width: 80%;
+}
 
 .img-container {
-    text-align: center;
-    padding: 1rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .img-container img {
-    height: 4rem;
-    
+  height: 4rem;
 }
 
 #fuelTable td {
@@ -189,7 +186,6 @@ html {
 
 #generators .table1 td {
   font-size: 1rem;
-  
 }
 
 #generators .table2 td {
@@ -200,9 +196,10 @@ html {
   width: 12rem;
 }
 
-img:hover, button:hover {
+img:hover,
+button:hover {
   transform: scale(1.1);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .btn-group a {
