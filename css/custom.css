@@ -7,7 +7,7 @@ body {
   background-color: #095A42; /*02231a*/
   overflow-x: hidden;
   background: rgb(9,90,66);
-  background: linear-gradient(131deg, rgba(9,90,66,1) 0%, rgba(9,90,66,1) 35%, rgba(0,181,255,1) 100%);
+  /* background: linear-gradient(131deg, rgba(9,90,66,1) 0%, rgba(9,90,66,1) 35%, rgba(0,181,255,1) 100%); */
   
 }
 
