@@ -39,6 +39,10 @@ body {
     background-color: rgba(239, 127, 26, 0.3);
     clip-path: polygon(3% 15%, 100% 8%, 100% 95%, 3% 85%);
   }
+
+  .footer {
+    clip-path: polygon(0 0%, 97% 10%, 97% 100%, 0 100%);
+  }
 }
 
 .logo-black {
@@ -130,7 +134,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
-  clip-path: polygon(0 0%, 97% 10%, 97% 100%, 0 100%);
+
 }
 
 .overlay-light {
