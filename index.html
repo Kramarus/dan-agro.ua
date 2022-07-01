@@ -96,9 +96,18 @@
                   class="btn btn-primary btn-lg py-sm-3 px-sm-2"
                   data-bs-toggle="modal"
                   data-bs-target="#chooseModel"
-                  style="width: 18rem;"
+                  style="width: 20rem;"
                 >
                   Підібрати модель
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-light btn-lg py-sm-3 px-sm-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#callOrder"
+                  style="width: 20rem;"
+                >
+                Замовити дзвінок
                 </button>
                 <!-- <div class="dropdown">
                   <button
@@ -143,7 +152,7 @@
           >
             28 РОКІВ <br />у теплоенергетиці<br />
           </div>
-          
+
           <!--Second col-4-->
           <div
             class="d-none d-lg-block col-lg-2 nav-text fs-4 text-center text-light"
@@ -440,7 +449,7 @@
                                           />
 
                                           <label for="region" class="form-label"
-                                            >Регіон (обов'язкове поле)</label
+                                            >Ваш регіон (обов'язкове поле)</label
                                           >
                                           <input
                                             type="text"
@@ -745,7 +754,7 @@
                                           />
 
                                           <label for="region" class="form-label"
-                                            >Регіон (обов'язкове поле)</label
+                                            >Ваш регіон (обов'язкове поле)</label
                                           >
                                           <input
                                             type="text"
@@ -1045,7 +1054,7 @@
                                           />
 
                                           <label for="region" class="form-label"
-                                            >Регіон (обов'язкове поле)</label
+                                            >Ваш регіон (обов'язкове поле)</label
                                           >
                                           <input
                                             type="text"
@@ -1348,7 +1357,7 @@
                                           />
 
                                           <label for="region" class="form-label"
-                                            >Регіон (обов'язкове поле)</label
+                                            >Ваш регіон (обов'язкове поле)</label
                                           >
                                           <input
                                             type="text"
@@ -1650,7 +1659,7 @@
                                           />
 
                                           <label for="region" class="form-label"
-                                            >Регіон (обов'язкове поле)</label
+                                            >Ваш регіон (обов'язкове поле)</label
                                           >
                                           <input
                                             type="text"
@@ -1931,7 +1940,7 @@
                                   />
 
                                   <label for="region" class="form-label"
-                                    >Регіон (обов'язкове поле)</label
+                                    >Ваш регіон (обов'язкове поле)</label
                                   >
                                   <input
                                     type="text"
@@ -3149,7 +3158,7 @@
                     />
 
                     <label for="region" class="form-label"
-                      >Регіон (обов'язкове поле)</label
+                      >Ваш регіон (обов'язкове поле)</label
                     >
                     <input
                       type="text"
@@ -3176,6 +3185,122 @@
                       type="hidden"
                       name="_subject"
                       value="Заявка на консультацию"
+                    />
+                    <input type="hidden" name="_template" value="table" />
+
+                    <button type="submit" class="btn btn-custom">
+                      Залишити заяву
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="callOrder"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="contactManagerLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content border h-100">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactManagerLabel">
+              Замовити дзвінок
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!--Form Original-->
+            <div class="container text-start">
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <!--Rus:bb578093b6a53e03850716bdb2a99164-->
+                  <!--Nat:9cf9691a396ac0aa43f64c51c702e6b8-->
+                  <form
+                    action="https://formsubmit.co/9cf9691a396ac0aa43f64c51c702e6b8"
+                    action
+                    class="row justify-content-start g-2"
+                    method="POST"
+                  >
+                    <label for="name" class="form-label"
+                      >Ім'я або назва компанії (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="name"
+                      id="name"
+                      required
+                    />
+
+                    <label for="phoneNumber" class="form-label"
+                      >Телефон (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="phoneNumber"
+                      id="phoneNumber"
+                      required
+                    />
+
+                    <label for="whenToCall" class="form-label"
+                      >Коли Вам зателефонувати? (обов'язкове поле)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="timeToCall"
+                      id="whenToCall"
+                      required
+                    />
+
+                    <label for="region" class="form-label"
+                      >Ваш регіон</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control mb-3"
+                      name="region"
+                      id="region"
+                    />
+
+                    <label for="comments" class="form-label">Коментар</label>
+                    <textarea
+                      class="form-control"
+                      id="comments"
+                      name="message"
+                      rows="3"
+                    ></textarea>
+                    <input type="hidden" name="_captcha" value="false" />
+                    <input
+                      type="hidden"
+                      name="_next"
+                      value="https://dan-agro.com.ua/thankyou.html"
+                    />
+                    <input
+                      type="hidden"
+                      name="_subject"
+                      value="Передзвоніть мені"
                     />
                     <input type="hidden" name="_template" value="table" />
 
