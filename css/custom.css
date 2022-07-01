@@ -178,6 +178,10 @@ button {
   width: 80%;
 }
 
+.row {
+  --bs-gutter-x: 0rem!important;
+}
+
 .img-container {
   text-align: center;
   padding: 1rem;
