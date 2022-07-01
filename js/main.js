@@ -41,6 +41,26 @@
     }
   });
 
+  $(window).scroll(function () {
+    if ($(window).width() < 1992) {
+      if ($(this).scrollTop() > 640) {
+        $('#nav-cta').addClass('d-block');
+        $('#nav-cta').removeClass('d-none');
+      } else {
+        $('#nav-cta').addClass('d-none');
+        $('#nav-cta').removeClass('d-block');
+      }
+    } else {
+      if ($(this).scrollTop() > 45) {
+        $('#nav-cta').addClass('d-block');
+        $('#nav-cta').removeClass('d-none');
+      } else {
+        $('#nav-cta').addClass('d-none');
+        $('#nav-cta').removeClass('d-block');
+      }
+    }
+  });
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
