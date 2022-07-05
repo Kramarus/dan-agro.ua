@@ -1,0 +1,222 @@
+/* CUSTOM STYLES*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #095a42; /*02231a*/
+  overflow-x: hidden;
+  background: rgb(9, 90, 66);
+  /* background: linear-gradient(131deg, rgba(9,90,66,1) 0%, rgba(9,90,66,1) 35%, rgba(0,181,255,1) 100%); */
+}
+
+.logo-header {
+  height: 6rem;
+}
+
+.logo-header-menu {
+  height: 8rem;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 20px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%); */
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-design {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(3% 5%, 100% 0%, 100% 100%, 3% 95%);
+  }
+
+  .hero-design2 {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(0% 0, 97% 5%, 97% 95%, 0% 100%);
+  }
+
+  .hero-design3 {
+    background-color: rgba(239, 127, 26, 0.3);
+    clip-path: polygon(3% 15%, 100% 8%, 100% 95%, 3% 85%);
+  }
+
+  .footer {
+    clip-path: polygon(0 0%, 97% 10%, 97% 100%, 0 100%);
+  }
+}
+
+.logo-black {
+  filter: invert(100%);
+}
+
+.modal-dialog .order-btn {
+  width: 8rem !important;
+}
+
+.modal-dialog .row {
+  width: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.btn-custom {
+  background-color: #ef7f1a;
+  color: #f2f2f2;
+}
+
+.svg-container svg {
+  fill: #ef7f1a;
+}
+
+.custom-bg {
+  background-color: #ef7f1a;
+}
+
+.custom-bg2 {
+  background-color: #095a42; /*02231a*/
+}
+
+.custom-bg3 {
+  background-color: #1157a3;
+}
+
+.text-custom {
+  color: #ef7f1a;
+}
+
+.text-custom2 {
+  color: #1157a3;
+}
+
+.text-custom3 {
+  color: #095a42;
+}
+
+#extra-service img {
+  filter: invert(100%);
+}
+
+.extra-bg {
+  background-image: url(../img/extra-bg3.jpg);
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-cta a {
+  margin-right: 10px;
+}
+
+#guarantee-section button {
+  flex-grow: 1;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%); */
+}
+
+.overlay-footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%); */
+}
+
+.footer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+
+}
+
+.overlay-light {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay-hero {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 20rem;
+  margin: 0.5rem;
+}
+
+.overlay-hero-mobile {
+  width: 100%;
+  height: 40%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
+
+.overlay-hero-lg {
+  height: 100%;
+  background-color: rgba(9, 90, 66, 0.5); /*17, 87, 163*/
+  display: flex;
+  align-items: center;
+}
+
+.overlay-hero-lg img {
+  width: 80%;
+}
+
+.row {
+  --bs-gutter-x: 0rem!important;
+}
+
+.img-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.img-container img {
+  height: 4rem;
+}
+
+#fuelTable td {
+  min-width: 4rem;
+  text-align: center;
+}
+
+#generators .table1 td {
+  font-size: 1rem;
+}
+
+#generators .table2 td {
+  font-size: 1rem;
+}
+
+#generators button {
+  width: 12rem;
+}
+
+img:hover,
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.btn-group a {
+  margin: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid #ef7f1a;
+}
