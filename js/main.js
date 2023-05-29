@@ -19,12 +19,12 @@
     if ($(this).scrollTop() > 45) {
       $(".fixed-top").addClass("bg-white shadow");
       $(".nav-text").addClass("text-dark");
-      document.querySelector("#logo-ua").src = "./img/logo-color-ua.png";
+      document.querySelector("#logo-ua").src = "./img/logo-color-en.png";
       $(".custom_menu-btn").addClass("logo-black");
     } else {
       $(".fixed-top").removeClass("bg-white shadow");
       $(".nav-text").removeClass("text-dark");
-      document.querySelector("#logo-ua").src = "./img/logo-white-ua.png";
+      document.querySelector("#logo-ua").src = "./img/logo-white-en.png";
       $(".custom_menu-btn").removeClass("logo-black");
     }
   });
